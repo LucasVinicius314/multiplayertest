@@ -11,7 +11,6 @@ public partial class PlayerScript : CharacterBody3D
   {
     if (!IsMultiplayerAuthority())
     {
-      GD.Print("a");
       return;
     }
 
